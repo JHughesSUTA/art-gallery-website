@@ -11,6 +11,14 @@
   font: inherit;
 }
 
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
 input,
 textarea,
 button,
@@ -38,3 +46,7 @@ $gold: #d5966c;
 
 $heading: "Big Shoulders Display", cursive;
 $body: "Outfit", sans-serif;
+
+$fw-light: 300;
+$fw-reg: 400;
+$fw-black: 800;

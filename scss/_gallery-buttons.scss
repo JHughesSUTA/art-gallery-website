@@ -1,0 +1,43 @@
+a.gallery-button {
+  display: inline-block;
+  text-decoration: none;
+
+  span.gallery-button__text {
+    display: inline-block;
+    color: $white;
+    background-color: $black;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding: 24px 35px 24px 32px;
+    letter-spacing: 3.64px;
+    font-family: $heading;
+  }
+
+  span.gallery-button__icon {
+    background-color: $gold;
+    width: 56px;
+    position: relative;
+
+    img {
+      max-width: 8px;
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+a.gallery-button:hover {
+  span.gallery-button__text {
+    background-color: $gold;
+  }
+
+  span.gallery-button__icon {
+    background-color: $black;
+  }
+}
+
+
