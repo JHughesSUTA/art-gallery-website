@@ -23,16 +23,62 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-family: $heading;
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: $fw-black;
+  text-transform: uppercase;
+}
+
 .flex-wrap {
   display: flex;
 }
 
-.intro-section {
-  &__content {
-    margin: 0 16px;
-  }
+.container {
+  margin: 0 16px;
+}
 
+.intro-section {
   a.gallery-button {
     margin-top: 32px;
+  }
+
+  margin-bottom: 120px;
+}
+
+.day-at-the-gallery-section {
+  margin-bottom: 120px;
+
+  h2 {
+    padding: 25px 0 32px;
+  }
+
+  &__image-container {
+    margin-bottom: 16px;
+  }
+}
+
+.dark-text-area {
+  color: $white;
+  background-color: $black;
+  padding: 48px 24px 47px;
+}
+
+footer {
+  p {
+    font-size: 16px;
+    letter-spacing: 0em;
+    margin: 38px 0;
+  }
+
+  ul.social-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    li {
+      max-width: 20px;
+    }
   }
 }
