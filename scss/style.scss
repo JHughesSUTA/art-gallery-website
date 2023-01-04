@@ -1,5 +1,6 @@
 @import "config";
 @import "gallery-buttons";
+@import "intro-section";
 
 html {
   font-family: $body;
@@ -11,6 +12,7 @@ img {
 
 p {
   font-weight: $fw-light;
+  font-size: 18px;
   line-height: 28px;
 }
 
@@ -37,18 +39,6 @@ h2 {
 
 .container {
   margin: 0 16px;
-}
-
-.intro-section {
-  a.gallery-button {
-    margin-top: 32px;
-  }
-
-  margin-bottom: 120px;
-
-  &__black-bg {
-    display: none;
-  }
 }
 
 .day-at-the-gallery-section {
@@ -88,64 +78,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .intro-section {
-    display: flex;
-
-    &__image {
-      flex-grow: 1;
-      max-width: 57%;
-    }
-
-    &__container {
-      flex-grow: 1;
-      position: relative;
-    }
-
-    &__content {
-      position: absolute;
-      left: -58px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
 }
 
-@media screen and (min-width: 992px) {
-  .intro-section {
-
-    &__black-bg {
-      display: block;
-      position: relative;
-      width: 32%;
-      background-color: $black;
-      flex-grow: 1;
-
-      h1 {
-        position: absolute;
-        color: gray;
-        top: 25%;
-        right: -99px;
-        padding: 0;
-      }
-    }
-
-    &__image {
-      width: 37%;
-    }
-
-    &__container {
-      width: 31%;
-      position: relative;
-    }
-
-    &__content {
-      top: 44%;
-      left: auto;
-      right: 8%;
-
-      h1 {
-        display: none;
-      }
-    }
-  }
+@media screen and (min-width: 1200px) {
 }
