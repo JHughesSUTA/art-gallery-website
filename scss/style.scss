@@ -2,6 +2,7 @@
 @import "gallery-buttons";
 @import "intro-section";
 @import "datg-section";
+@import "footer";
 
 html {
   font-family: $body;
@@ -46,26 +47,9 @@ h2 {
 .dark-text-area {
   color: $white;
   background-color: $black;
-  padding: 48px 24px 47px;
 }
 
-footer {
-  p {
-    font-size: 16px;
-    letter-spacing: 0em;
-    margin: 38px 0;
-  }
 
-  ul.social-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-
-    li {
-      max-width: 20px;
-    }
-  }
-}
 
 @media screen and (min-width: 768px) {
   .container {
