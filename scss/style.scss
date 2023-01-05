@@ -1,6 +1,7 @@
 @import "config";
 @import "gallery-buttons";
 @import "intro-section";
+@import "datg-section";
 
 html {
   font-family: $body;
@@ -38,19 +39,8 @@ h2 {
 }
 
 .container {
-  margin: 0 16px;
-}
-
-.day-at-the-gallery-section {
-  margin-bottom: 120px;
-
-  h2 {
-    padding: 25px 0 32px;
-  }
-
-  &__image-container {
-    margin-bottom: 16px;
-  }
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .dark-text-area {
@@ -78,6 +68,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    margin-left: 39px;
+    margin-right: 40px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

@@ -1,0 +1,89 @@
+.datg-section {
+  margin-bottom: 120px;
+
+  h2 {
+    padding: 25px 0 32px;
+  }
+
+  p {
+    margin-bottom: 32px;
+    max-width: 330px;
+  }
+
+  &__image-container {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .datg-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 11px;
+    grid-template-areas:
+      "one one one one one two two two two two two two"
+      "three three three three three three three four four four four four"
+      "three three three three three three three five five five five five";
+
+    &__text-1 {
+      grid-area: one;
+    }
+
+    &__text-2 {
+      grid-area: five;
+    }
+
+    &__image-1 {
+      grid-area: two;
+    }
+
+    &__image-2 {
+      grid-area: three;
+    }
+
+    &__image-3 {
+      grid-area: four;
+    }
+
+    &__image-container {
+      margin-bottom: 0;
+    }
+  }
+
+  // .datg-section {
+  //   &__container-1 {
+  //     display: flex;
+
+  //     &--a {
+  //       order: 2;
+  //       width: 57%;
+  //       flex-grow: 1;
+
+  //       p {
+  //         max-width: 223px;
+  //       }
+  //     }
+
+  //     &--b {
+  //       flex-grow: 1;
+  //       width: 43%;
+
+  //       h2,
+  //       p {
+  //         max-width: 223px;
+
+  //         br {
+  //           display: none;
+  //         }
+  //       }
+  //     }
+  //   }
+
+  //   &__container-2 {
+  //     display: flex;
+  //   }
+  // }
+}
+
+@media screen and (min-width: 1200px) {
+}
