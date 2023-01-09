@@ -28,6 +28,12 @@ a.gallery-button {
       transform: translate(-50%, -50%);
     }
   }
+
+  &.gallery-button-alt {
+    span.gallery-button__text {
+      order: 2;
+    }
+  }
 }
 
 a.gallery-button:hover {

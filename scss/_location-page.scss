@@ -1,0 +1,53 @@
+#location-page {
+  .map-section {
+    position: relative;
+
+    .gallery-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .our-location {
+    padding: 48px 16px 56px;
+    color: $white;
+    background-color: $black;
+
+    h3 {
+      color: $gold;
+      font-size: 32px;
+      line-height: 32px;
+      font-family: $heading;
+      font-weight: $fw-black;
+      text-transform: uppercase;
+      margin-top: 48px;
+      margin-bottom: 20px;
+    }
+
+    p:nth-of-type(1) {
+      margin-bottom: 20px;
+    }
+  }
+
+  footer {
+    background-color: $gold;
+    color: $black;
+
+    svg {
+      path {
+        fill: $black;
+      }
+    }
+
+    ul.social-links {
+      li:hover {
+        svg {
+          path {
+            fill: $white;
+          }
+        }
+      }
+    }
+  }
+}
