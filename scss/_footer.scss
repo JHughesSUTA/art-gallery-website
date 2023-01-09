@@ -6,12 +6,13 @@ footer {
     line-height: 26px;
     letter-spacing: 0em;
     margin: 38px 0;
+    max-width: 311px;
   }
 
   ul.social-links {
     list-style: none;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     gap: 20px;
 
     li {
@@ -31,6 +32,15 @@ footer {
 @media screen and (min-width: 700px) {
   .footer {
     padding: 56px 40px 56px 39px;
+
+    p {
+      max-width: 281px;
+    }
+
+    ul.social-links {
+      justify-content: end;
+    }
+
     &__flex {
       display: flex;
       justify-content: space-between;
@@ -56,4 +66,10 @@ footer {
 }
 
 @media screen and (min-width: 1100px) {
+  .footer {
+    p {
+      font-size: 18px;
+      max-width: 430px;
+    }
+  }
 }

@@ -44,17 +44,19 @@
 
       h1 {
         position: absolute;
-        color: gray;
+        color: $white;
         top: 25%;
         right: -160px;
         padding: 0;
         font-size: 96px;
         line-height: 88px;
+        mix-blend-mode: difference;
       }
     }
 
     &__image {
       width: 37%;
+      display: flex;
     }
 
     &__container {
