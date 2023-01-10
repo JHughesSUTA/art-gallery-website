@@ -51,3 +51,44 @@
     }
   }
 }
+
+@media screen and (min-width: 700px) {
+  #location-page {
+    .map-section {
+      .gallery-button {
+        left: 39px;
+      }
+    }
+
+    .our-location {
+      padding: 88px 40px 88px 39px;
+      display: flex;
+
+      h3 {
+        margin-top: 0;
+      }
+
+      .our-location__1 {
+        padding-right: 68px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #location-page {
+    .map-section {
+      .gallery-button {
+        left: 156px;
+      }
+    }
+
+    .our-location {
+      padding: 104px 165px 128px;
+
+      .our-location__1 {
+        padding-right: 220px;
+      }
+    }
+  }
+}
