@@ -28,6 +28,16 @@
     p:nth-of-type(1) {
       margin-bottom: 20px;
     }
+
+    .our-location__1 {
+      br {
+        display: none;
+      }
+    }
+
+    .our-location__2 {
+      max-width: 428px;
+    }
   }
 
   footer {
@@ -38,6 +48,10 @@
       path {
         fill: $black;
       }
+    }
+
+    p {
+      max-width: 428px;
     }
 
     ul.social-links {
@@ -70,6 +84,20 @@
 
       .our-location__1 {
         padding-right: 68px;
+
+        br {
+          display: inline-block;
+        }
+      }
+
+      .our-location__2 {
+        max-width: 530px;
+      }
+    }
+
+    footer {
+      p {
+        max-width: 430px;
       }
     }
   }
