@@ -21,6 +21,8 @@ footer {
       a:hover {
         svg {
           path {
+            transition-property: fill;
+            transition-duration: 200ms;
             fill: $gold;
           }
         }

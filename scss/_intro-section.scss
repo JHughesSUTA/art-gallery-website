@@ -1,4 +1,8 @@
 .intro-section {
+  &__content {
+    max-width: 343px;
+  }
+
   a.gallery-button {
     margin-top: 32px;
   }
@@ -66,7 +70,9 @@
 
     &__content {
       top: 44%;
-      left: -69px;
+      max-width: 350px;
+
+      
 
       h1 {
         display: none;

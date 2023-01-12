@@ -37,13 +37,15 @@ a.gallery-button {
 }
 
 a.gallery-button:hover {
-  span.gallery-button__text {
-    background-color: $gold;
-  }
+  span {
+    transition-property: background-color;
+    transition-duration: 200ms;
+    &.gallery-button__text {
+      background-color: $gold;
+    }
 
-  span.gallery-button__icon {
-    background-color: $black;
+    &.gallery-button__icon {
+      background-color: $black;
+    }
   }
 }
-
-
