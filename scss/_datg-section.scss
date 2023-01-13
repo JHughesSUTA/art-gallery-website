@@ -1,13 +1,30 @@
 .datg-section {
   margin-bottom: 120px;
 
-  h2 {
-    padding: 25px 0 32px;
+  &__text-1 {
+    margin-bottom: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    h2 {
+      margin-bottom: 21px;
+    }
+
+    p {
+      max-width: 330px;
+    }
   }
 
-  p {
-    margin-bottom: 32px;
-    max-width: 330px;
+  &__text-2 {
+    padding: 48px 24px 47px;
+
+    h2 {
+      margin-bottom: 24px;
+    }
+
+    p {
+      max-width: 300px;
+    }
   }
 
   &__image-container {
@@ -15,7 +32,6 @@
   }
 
   .dark-text-area {
-    padding: 48px 24px 47px;
   }
 }
 
@@ -47,6 +63,14 @@
 
     &__image-3 {
       grid-area: four;
+      background-image: url(/assets/tablet/image-grid-3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+
+      picture {
+        display: none;
+      }
     }
 
     &__image-container {
@@ -54,23 +78,64 @@
     }
 
     &__text-1 {
+      padding-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      position: relative;
+
+      &__wrap {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
       h2 {
         max-width: 223px;
+        margin-bottom: 24px;
+
         br.break-mobile {
           display: none;
         }
       }
     }
+
+    &__text-2 {
+      padding: 0 28px 0 29px;
+      position: relative;
+
+      &__wrap {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      p {
+        max-width: 223px;
+      }
+    }
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1300px) {
   .datg-section {
     &__text-1 {
       h2 {
         max-width: 350px;
-        
+        margin-bottom: 32px;
       }
+    }
+
+    &__text-2 {
+      p {
+        max-width: 350px;
+      }
+    }
+
+    &__image-3 {
+      background-image: url(/assets/desktop/image-grid-3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
     }
   }
 }
