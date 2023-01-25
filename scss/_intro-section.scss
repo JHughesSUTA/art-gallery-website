@@ -1,6 +1,6 @@
 .intro-section {
   &__content {
-    max-width: 343px;
+    max-width: 21.438rem;
   }
 
   a.gallery-button {
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 43.75em) {
   .intro-section {
     display: flex;
 
@@ -30,14 +30,14 @@
 
     &__content {
       position: absolute;
-      left: -58px;
+      left: -3.625rem;
       top: 50%;
       transform: translateY(-50%);
     }
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25em) {
   .intro-section {
     &__black-bg {
       display: block;
@@ -50,7 +50,7 @@
         position: absolute;
         color: $white;
         top: 25%;
-        right: -163px;
+        right: -10.188rem;
         padding: 0;
         font-size: 6rem;
         line-height: 5.5rem;
@@ -71,8 +71,8 @@
     &__content {
       top: 25%;
       transform: none;
-      max-width: 350px;
-      left: -230px;
+      max-width: 21.875rem;
+      left: -14.375rem;
 
       h1 {
         display: none;

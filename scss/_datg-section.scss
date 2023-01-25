@@ -11,7 +11,7 @@
     }
 
     p {
-      max-width: 330px;
+      max-width: 20.625rem;
     }
   }
 
@@ -23,7 +23,7 @@
     }
 
     p {
-      max-width: 300px;
+      max-width: 18.75rem;
     }
   }
 
@@ -35,11 +35,11 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 43.75em) {
   .datg-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 11px;
+    gap: 0.688rem;
     grid-template-areas:
       "one one one one one two two two two two two two"
       "three three three three three three three four four four four four"
@@ -90,7 +90,7 @@
       }
 
       h2 {
-        max-width: 223px;
+        max-width: 13.938rem;
         margin-bottom: 1.5rem;
 
         br.break-mobile {
@@ -110,24 +110,24 @@
       }
 
       p {
-        max-width: 223px;
+        max-width: 13.938rem;
       }
     }
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 81.25em) {
   .datg-section {
     &__text-1 {
       h2 {
-        max-width: 350px;
+        max-width: 21.875rem;
         margin-bottom: 2rem;
       }
     }
 
     &__text-2 {
       p {
-        max-width: 350px;
+        max-width: 21.875rem;
       }
     }
 

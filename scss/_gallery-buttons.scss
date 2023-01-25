@@ -10,17 +10,17 @@ a.gallery-button {
     text-transform: uppercase;
     font-size: 1.25rem;
     padding: 1.5rem 2.188rem 1.5rem 2rem;
-    letter-spacing: 3.64px;
+    letter-spacing: 0.228rem;
     font-family: $heading;
   }
 
   span.gallery-button__icon {
     background-color: $gold;
-    width: 56px;
+    width: 3.5rem;
     position: relative;
 
     img {
-      max-width: 8px;
+      max-width: 0.5rem;
       margin: auto;
       position: absolute;
       top: 50%;
