@@ -1,13 +1,13 @@
 .datg-section {
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 
   &__text-1 {
-    margin-bottom: 16px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    margin-bottom: 1rem;
+    padding-top: 0.563rem;
+    padding-bottom: 0.563rem;
 
     h2 {
-      margin-bottom: 21px;
+      margin-bottom: 1.313rem;
     }
 
     p {
@@ -16,10 +16,10 @@
   }
 
   &__text-2 {
-    padding: 48px 24px 47px;
+    padding: 3rem 1.5rem 2.938rem;
 
     h2 {
-      margin-bottom: 24px;
+      margin-bottom: 1.5rem;
     }
 
     p {
@@ -28,7 +28,7 @@
   }
 
   &__image-container {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 
   .dark-text-area {
@@ -91,7 +91,7 @@
 
       h2 {
         max-width: 223px;
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
 
         br.break-mobile {
           display: none;
@@ -100,7 +100,7 @@
     }
 
     &__text-2 {
-      padding: 0 28px 0 29px;
+      padding: 0 1.75rem 0 1.813rem;
       position: relative;
 
       &__wrap {
@@ -121,7 +121,7 @@
     &__text-1 {
       h2 {
         max-width: 350px;
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
       }
     }
 

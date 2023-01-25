@@ -1,11 +1,11 @@
 footer {
-  padding: 48px 16px;
+  padding: 3rem 1rem;
 
   p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     letter-spacing: 0em;
-    margin: 38px 0;
+    margin: 2.375rem 0;
     max-width: 311px;
   }
 
@@ -33,7 +33,7 @@ footer {
 
 @media screen and (min-width: 700px) {
   .footer {
-    padding: 56px 0;
+    padding: 3.5rem 0;
 
     p {
       max-width: 281px;
@@ -70,7 +70,7 @@ footer {
 @media screen and (min-width: 1300px) {
   .footer {
     p {
-      font-size: 18px;
+      font-size: 1.125rem;
       max-width: 430px;
     }
   }

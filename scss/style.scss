@@ -15,23 +15,23 @@ img {
 
 p {
   font-weight: $fw-light;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 h1 {
   font-family: $heading;
-  font-size: 60px;
-  line-height: 55px;
+  font-size: 3.75rem;
+  line-height: 3.438rem;
   font-weight: $fw-black;
-  padding: 32px 0;
+  padding: 2rem 0;
   text-transform: uppercase;
 }
 
 h2 {
   font-family: $heading;
-  font-size: 50px;
-  line-height: 45px;
+  font-size: 3.125rem;
+  line-height: 2.813rem;
   font-weight: $fw-black;
   text-transform: uppercase;
 }
@@ -41,8 +41,8 @@ h2 {
 }
 
 .container {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .dark-text-area {
@@ -52,24 +52,24 @@ h2 {
 
 @media screen and (min-width: 700px) {
   .container {
-    margin-left: 39px;
-    margin-right: 40px;
+    margin-left: 2.438rem;
+    margin-right: 2.5rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
   p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
   }
 
   h2 {
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 3.75rem;
+    line-height: 3.125rem;
   }
 
   .container {
-    margin-left: 165px;
-    margin-right: 164px;
+    margin-left: 10.313rem;
+    margin-right: 10.25rem;
   }
 }
