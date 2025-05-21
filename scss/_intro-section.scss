@@ -1,3 +1,5 @@
+@import "mixins";
+
 .intro-section {
   &__content {
     max-width: 21.438rem;
@@ -19,12 +21,12 @@
     display: flex;
 
     &__image {
-      flex-grow: 1;
+      @include flex-grow(1);
       max-width: 57%;
     }
 
     &__container {
-      flex-grow: 1;
+      @include flex-grow(1);
       position: relative;
     }
 
@@ -44,7 +46,7 @@
       position: relative;
       width: 32%;
       background-color: $black;
-      flex-grow: 1;
+      @include flex-grow(1);
 
       h1 {
         position: absolute;
@@ -60,7 +62,6 @@
 
     &__image {
       width: 37%;
-      display: flex;
     }
 
     &__container {

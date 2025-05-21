@@ -13,6 +13,10 @@ img {
   width: 100%;
 }
 
+*:focus-visible {
+  outline: 4px solid lime;
+}
+
 p {
   font-weight: $fw-light;
   font-size: 1.125rem;
@@ -34,6 +38,12 @@ h2 {
   line-height: 2.813rem;
   font-weight: $fw-black;
   text-transform: uppercase;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  /* text-align: center; */
 }
 
 .flex-wrap {
